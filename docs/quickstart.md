@@ -28,11 +28,26 @@ agentspan doctor
 ## Step 2 — Set your LLM API key
 
 ```bash
+# bash (Linux/macOS)
 # OpenAI
 export OPENAI_API_KEY=sk-...
 
 # Anthropic
 export ANTHROPIC_API_KEY=sk-ant-...
+
+# PowerShell
+# OpenAI
+$env:OPENAI_API_KEY=sk-...
+
+# Anthropic
+$env:ANTHROPIC_API_KEY=sk-ant-...
+
+# Command Prompt
+# OpenAI
+set OPENAI_API_KEY=sk-...
+
+# Anthropic
+set ANTHROPIC_API_KEY=sk-ant-...
 ```
 
 See [Providers](/docs/providers) for all supported models and environment variables.
