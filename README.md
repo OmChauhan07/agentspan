@@ -63,7 +63,15 @@ dotnet add package Agentspan
 ```
 
 ```bash
+# bash (Linux/macOS)
 export OPENAI_API_KEY=sk-...   # or any supported provider
+
+# PowerShell
+$env:OPENAI_API_KEY=sk-...
+
+# Command Prompt
+set OPENAI_KEY_API=sk-...
+
 agentspan server start         # runs on localhost:6767 with UI
 ```
 
